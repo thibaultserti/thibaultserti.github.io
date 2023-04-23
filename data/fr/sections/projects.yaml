@@ -1,0 +1,38 @@
+# section information
+section:
+  name: Projets
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Tous
+  filter: "all"
+- name: Professionel
+  filter: "Professionel"
+- name: Personnel
+  filter: "Personnel"
+
+# your projects
+projects:
+
+# - name: Ransomware.live
+#   logo: /images/sections/projects/ransomwatch.png
+#   role: Contributeur
+#   timeline: "Janvier 2022 - aujourd'hui"
+#   url: https://ransomware.live
+#   summary: Indexation des attaques par ransomware
+#   tags: ["Professionel", "Cybersécurité"]
+
+
+- name: Curriculum Vitae
+  logo: /images/author/thibault.jpg
+  role: Créateur
+  timeline: "April 2023 - aujourd'hui"
+  repo: https://github.com/thibaultserti/thibaultserti
+  summary: Mon Curriculum Vitae en ligne généré par Github Action et hébergé par Github
+  tags: ["Personnel"]
