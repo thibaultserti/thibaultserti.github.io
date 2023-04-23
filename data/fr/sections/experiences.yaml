@@ -1,0 +1,130 @@
+# section information
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Adeo
+    url: "https://adeo.com"
+    location: Ronchin, France
+    overview: Mission client
+  positions:
+  - designation: Cloud Architect
+    start: 2022
+    # end: 2023
+    responsibilities:
+      - Maintien et évolution des API (FastAPI) internes de l'automatisation de l'infrastructure sur GCP, Azure et Yandex
+      - Développement de SDK en Python pour consommer les APIs internes
+      - Maintien et évolution du code Terraform des Landing Zone proposées aux utilisateurs
+      - Gestion des identités Google Workspace
+      - Amélioration de la gouvernance et de la conformité sur le Cloud (remédiation, IAM, custom roles, organisation policy, ...)
+      - Support utilisateur pour des questions relatives à GCP
+
+- company:
+    name: Auchan
+    url: "https://auchan.com"
+    location: Villeneuve d'Ascq, France
+    overview: Mission client
+  positions:
+  - designation: Cloud Architect
+    start: 2022
+    end: 2022
+    responsibilities:
+      - Audit et PoC pour migrer d'OVHcloud vers Cloud Run
+
+- company:
+    name: Chronodrive
+    url: "https://chronodrive.com"
+    location: Croix, France
+    overview: Mission client
+  positions:
+  - designation: Cloud Architect
+    start: 2022
+    end: 2022
+    responsibilities:
+      - Déploiement de l'infra avec Terraform
+      - Déploiement des app K8s avec Helm
+      - Provisionnement des instances MongoDB et Elasticsearch avec Ansible
+      - Déploiement et configuration du monitoring
+      - Configuration de la CICD (Gitlab CI et ArgoCD)
+
+- company:
+    name: Microdon
+    url: "https://microdon.com"
+    location: Paris, France
+    overview: Mission client
+  positions:
+  - designation: SRE
+    start: 2021
+    end: 2022
+    responsibilities:
+    - Migration des workloads sur GKE
+    - Maintenance de CloudSQL
+    - Amélioration globale de la sécurité
+
+- company:
+    name: Campings
+    url: "https://campings.com"
+    location: Paris, France
+    overview: Mission client
+  positions:
+  - designation: SRE
+    start: 2021
+    end: 2022
+    responsibilities:
+    - Run de la platforme GCP, principalement au niveau du monitoring
+
+- company:
+    name: Skale 5
+    url: "https://skale-5.com"
+    location: Paris, France
+    overview: IT Services
+  positions:
+  - designation: Cloud Architect
+    start: 2021
+    #end: 2024
+    responsibilities:
+    - Recruitement technique
+    - Application des bonnes pratiques de sécurité
+    - Accompagnement des stagiaires et des alternants
+    - Industrailisation des patterns cloud pour améliorer la qualité chez nos clients
+
+- company:
+    name: OVHcloud
+    url: "https://ovhcloud.fr"
+    location: Roubaix, France - Remote
+    overview: IaaS Team
+  positions:
+  - designation: DevOps Engineer
+    start: 2020
+    end: 2021
+    responsibilities:
+      - Administration et amélioration de l'automatisation du cluster Kubernetes interne (VPA, mutating webhooks, opérateur CNI, ...)
+      - Amélioration du hardening des serveurs, de son observabilité et de sa pérennité
+      - Automatisation des contrôles de sécurité effectués sur les droits des collaborateurs
+- company:
+    name: Rézoléo
+    url: "https://rezoleo.fr"
+    location: Villeneuve d'Ascq, France
+    overview: IT Association that provides Internet to the student housing.
+  positions:
+  - designation: Active Member
+    start: 2020
+    end: 2022
+    responsibilities:
+      - Organisation d'un CTF de cybersécurité pour une quarantaine de personnes (conception des épreuves, communication)
+      - Formations ponctuelles sur Linux et les outils DevOps (Git, CI, Docker)
+  - designation: President
+    start: 2019
+    end: 2020
+    responsibilities:
+      - déploiement de bornes wifis dans un des bâtiments
+      - système de gestion distribué des mots de passe (Vault by Hashicorp)
+      - serveur web (Docker)

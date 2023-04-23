@@ -1,0 +1,131 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+
+- company:
+    name: Adeo
+    url: "https://adeo.com"
+    location: Ronchin, France
+    overview: Mission as IT consultant
+  positions:
+  - designation: Cloud Architect
+    start: 2022
+    # end: 2023
+    responsibilities:
+      - Maintenance and evolution of internal APIs (FastAPI) for infrastructure automation on GCP, Azure and Yandex
+      - SDK development in Python to consume internal APIs
+      - Maintenance and evolution of the Terraform code of the Landing Zones offered to users
+      - Google Workspace identity management
+      - Improvement of cloud governance and compliance (remediation, IAM, custom roles, organization policy, ...)
+      - User support for questions related to GCP
+
+- company:
+    name: Auchan
+    url: "https://auchan.com"
+    location: Villeneuve d'Ascq, France
+    overview: Mission as IT consultant
+  positions:
+  - designation: Cloud Architect
+    start: 2022
+    end: 2022
+    responsibilities:
+      - Audit and PoC to migrate from OVHcloud self managed K3S to Cloud Run
+
+- company:
+    name: Chronodrive
+    url: "https://chronodrive.com"
+    location: Croix, France
+    overview: Mission as IT consultant
+  positions:
+  - designation: Cloud Architect
+    start: 2022
+    end: 2022
+    responsibilities:
+      - Deployment of the infrastructure with Terraform
+      - Deployment of K8s apps with Helm
+      - Provisioning MongoDB and Elasticsearch instances with Ansible
+      - Deployment and configuration of monitoring
+      - Configuration of the CICD (Gitlab CI and ArgoCD)
+
+- company:
+    name: Microdon
+    url: "https://microdon.com"
+    location: Paris, France
+    overview: Mission as IT consultant
+  positions:
+  - designation: SRE
+    start: 2021
+    end: 2022
+    responsibilities:
+    - Migration of workloads on GKE
+    - Maintenance of CloudSQL
+    - Improvement over global security
+
+- company:
+    name: Campings
+    url: "https://campings.com"
+    location: Paris, France
+    overview: Mission as IT consultant
+  positions:
+  - designation: SRE
+    start: 2021
+    end: 2022
+    responsibilities:
+    - Run of the GCP platform, mainly monitoring
+
+- company:
+    name: Skale 5
+    url: "https://skale-5.com"
+    location: Paris, France
+    overview: IT Services
+  positions:
+  - designation: Cloud Architect
+    start: 2021
+    #end: 2024
+    responsibilities:
+    - Technical recruitment
+    - Ensuring the security Best Practices
+    - Managing interns and apprentices
+    - Industrialization of cloud patterns to ease the onboardings of new clients
+
+- company:
+    name: OVHcloud
+    url: "https://ovhcloud.fr"
+    location: Roubaix, France - Remote
+    overview: IaaS Team
+  positions:
+  - designation: DevOps Engineer
+    start: 2020
+    end: 2021
+    responsibilities:
+      - Administration and improvement of the automation of the internal Kubernetes cluster (VPA, mutating webhooks, CNI operator, ...)
+      - Improved server hardening, observability and future proofing
+      - Automation of security checks carried out on the rights of employees
+- company:
+    name: Rézoléo
+    url: "https://rezoleo.fr"
+    location: Villeneuve d'Ascq, France
+    overview: IT Association that provides Internet to the student housing.
+  positions:
+  - designation: Active Member
+    start: 2020
+    end: 2022
+    responsibilities:
+      - Organization of a cybersecurity CTF for around forty people (test design, communication)
+      - Occasional training on Linux and DevOps tools (Git, CI, Docker)
+  - designation: President
+    start: 2019
+    end: 2020
+    responsibilities:
+      - Deployment of wifi terminals in one of the buildings
+      - Distributed password management system (Vault by Hashicorp)
+      - Webserver (Docker)

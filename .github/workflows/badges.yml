@@ -1,0 +1,36 @@
+---
+name: 🔄 Regenerate badges
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Manually launched'
+
+jobs:
+  regenerate-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Generate badges
+        run: |
+          wget https://github.com/thibaultserti/badges/archive/v0.1.4.tar.gz
+          tar xf v0.1.4.tar.gz
+          cd badges-0.1.4
+          wget https://github.com/thibaultserti/badges/releases/download/v0.1.4/badges -O badges
+          chmod +x badges
+          ./badges --website cryptohack    --username thibaultserti  --theme dark  && cp cryptohack.png    ../assets/images/badges/
+          ./badges --website rootme        --username Thibault-Serti --theme dark  && cp rootme.png        ../assets/images/badges/
+          ./badges --website newbiecontest --username 85319          --theme light && cp newbiecontest.png ../assets/images/badges/
+          cd ..
+          wget https://projecteuler.net/profile/alvin666.png -O assets/images/badges/projecteuler.png
+          wget https://tryhackme-badges.s3.amazonaws.com/thibaultserti.png -O assets/images/badges/tryhackme.png
+          wget http://www.hackthebox.eu/badge/image/384113 -O assets/images/badges/hachthebox.png
+
+      - name: Add badges and commit
+        uses: EndBug/add-and-commit@v9.1.1
+        with:
+          add: 'assets/images/badges/cryptohack.png assets/images/badges/rootme.png assets/images/badges/newbiecontest.png assets/images/badges/projecteuler.png assets/images/badges/tryhackme.png assets/images/adges/hackthebox.png'
+          message: 'Regenerate badges (Github actions)'
