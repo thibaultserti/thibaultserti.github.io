@@ -119,7 +119,7 @@ jobs:
   issue_pr_lang:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@v3.32
+      - uses: lowlighter/metrics@v3.33
         with:
           filename: issue_pr_lang.svg
           # You'll need to setup a personal token in your secrets.
@@ -139,7 +139,7 @@ jobs:
   repositories:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@v3.32
+      - uses: lowlighter/metrics@v3.33
         with:
           filename: repositories.svg
           # You'll need to setup a personal token in your secrets.
