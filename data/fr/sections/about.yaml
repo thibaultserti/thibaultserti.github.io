@@ -94,6 +94,11 @@ badges:
   url: "https://www.credential.net/76085228-8506-4fca-931c-e52e44753f63"
   badge: "https://templates.images.credential.net/16590188739562332286578075626342.png"
 
+- type: certification
+  name: "HashiCorp Certified: Vault Associate (002)"
+  url: "https://www.credly.com/earner/earned/badge/18dfe3ee-d462-4c64-bc86-f7d31a2bd38f"
+  badge: "https://images.credly.com/size/340x340/images/fd1bf1cf-dc60-4868-b3a3-9b93e8af763c/image.png"
+
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1
