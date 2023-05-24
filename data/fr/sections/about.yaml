@@ -50,24 +50,9 @@ socialLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: "Microsoft Certified: Azure Fundamentals"
-  url: "https://www.credly.com/earner/earned/badge/bbd17253-5c9a-4cbf-b9d2-74a226746ef7"
-  badge: "https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
-
-- type: certification
-  name: Fundamentals for Kyverno
-  url: "https://www.credly.com/earner/earned/badge/9bb96ee2-c30b-42e5-aac8-4a87732ecfd8"
-  badge: "https://images.credly.com/size/340x340/images/fe23290a-b997-4fba-8ed7-a501de274f1e/Nirmata_Fundamentals_Certified_for_Kyverno__1_.png"
-
-- type: certification
-  name: "CKS: Certified Kubernetes Security Specialist"
-  url: "https://www.credly.com/earner/earned/badge/726f2ad9-1c6c-4ca4-af3b-ae4c742d2da9"
-  badge: "https://images.credly.com/size/340x340/images/9945dfcb-1cca-4529-85e6-db1be3782210/kubernetes-security-specialist-logo2.png"
-
-- type: certification
-  name: "CKAD: Certified Kubernetes Application Developer"
-  url: "https://www.credly.com/earner/earned/badge/de1f6a65-b473-4aa5-a579-322fedf20e69"
-  badge: "https://images.credly.com/size/340x340/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad_from_cncfsite.png"
+  name: Professional Cloud Architect
+  url: "https://www.credential.net/da4b0377-22d9-406b-8dfe-55c37a950590"
+  badge: "https://templates.images.credential.net/16590181582433100721069374350922.png"
 
 - type: certification
   name: "HashiCorp Certified: Terraform Associate (002)"
@@ -80,9 +65,14 @@ badges:
   badge: "https://images.credly.com/size/340x340/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png"
 
 - type: certification
-  name: Professional Cloud Architect
-  url: "https://www.credential.net/da4b0377-22d9-406b-8dfe-55c37a950590"
-  badge: "https://templates.images.credential.net/16590181582433100721069374350922.png"
+  name: "CKAD: Certified Kubernetes Application Developer"
+  url: "https://www.credly.com/earner/earned/badge/de1f6a65-b473-4aa5-a579-322fedf20e69"
+  badge: "https://images.credly.com/size/340x340/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad_from_cncfsite.png"
+
+- type: certification
+  name: "CKS: Certified Kubernetes Security Specialist"
+  url: "https://www.credly.com/earner/earned/badge/726f2ad9-1c6c-4ca4-af3b-ae4c742d2da9"
+  badge: "https://images.credly.com/size/340x340/images/9945dfcb-1cca-4529-85e6-db1be3782210/kubernetes-security-specialist-logo2.png"
 
 - type: certification
   name: Professional Cloud Security Engineer
@@ -95,9 +85,24 @@ badges:
   badge: "https://templates.images.credential.net/16590188739562332286578075626342.png"
 
 - type: certification
+  name: "Microsoft Certified: Azure Fundamentals"
+  url: "https://www.credly.com/earner/earned/badge/bbd17253-5c9a-4cbf-b9d2-74a226746ef7"
+  badge: "https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
+
+- type: certification
+  name: Fundamentals for Kyverno
+  url: "https://www.credly.com/earner/earned/badge/9bb96ee2-c30b-42e5-aac8-4a87732ecfd8"
+  badge: "https://images.credly.com/size/340x340/images/fe23290a-b997-4fba-8ed7-a501de274f1e/Nirmata_Fundamentals_Certified_for_Kyverno__1_.png"
+
+- type: certification
   name: "HashiCorp Certified: Vault Associate (002)"
   url: "https://www.credly.com/earner/earned/badge/18dfe3ee-d462-4c64-bc86-f7d31a2bd38f"
   badge: "https://images.credly.com/size/340x340/images/fd1bf1cf-dc60-4868-b3a3-9b93e8af763c/image.png"
+
+- type: certification
+  name: Professional Cloud Developer
+  url: "https://www.credential.net/a4d3a048-a6cb-4d3b-a589-2bfa4a987d29"
+  badge: "https://templates.images.credential.net/16590186916130985573582077414553.png"
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
