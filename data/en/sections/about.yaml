@@ -106,6 +106,11 @@ badges:
   url: "https://www.credential.net/a4d3a048-a6cb-4d3b-a589-2bfa4a987d29"
   badge: "https://templates.images.credential.net/16590186916130985573582077414553.png"
 
+- type: certification
+  name: AWS Certified Cloud Practicioner
+  url: "https://www.credly.com/earner/earned/badge/b1ffdec0-afcf-4be3-a601-42558d9055d2"
+  badge: https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png
+
 # - type: soft-skill-indicator
 #   name: Leadership
 #   percentage: 85
