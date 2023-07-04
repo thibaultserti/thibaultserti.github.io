@@ -109,6 +109,7 @@ experiences:
       - Administration et amélioration de l'automatisation du cluster Kubernetes interne (VPA, mutating webhooks, opérateur CNI, ...)
       - Amélioration du hardening des serveurs, de son observabilité et de sa pérennité
       - Automatisation des contrôles de sécurité effectués sur les droits des collaborateurs
+
 - company:
     name: Rézoléo
     url: "https://rezoleo.fr"
