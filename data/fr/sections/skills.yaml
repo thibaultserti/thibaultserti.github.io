@@ -13,21 +13,52 @@ section:
 skills:
 - name: GCP
   logo: /images/skills/GCP.png
-  summary: "Depuis 2021, je travail sur GCP que ce soit sur de l'architecture d'infrastructure, du DevOps, ou de la sécurité"
+  #summary:
 
-# - name: Infrastructure
-#   logo: /images/sections/skills/it.png
-#   summary: "Définir de nouvelles infrastructures (virtualisation, stockage, réseau, sécurité) on-premise ou hybride."
+- name: Architecture
+  logo: /images/skills/architecture.png
 
-# - name: Avant-vente
-#   logo: /images/sections/skills/presales.png
-#   summary: "Prendre en compte de l'historique et des besoins des clients pour proposer la meilleure solution en adequation avec leurs besoins futurs."
+- name: Sécurité
+  logo: /images/skills/security.png
 
-# - name: Stratégie
-#   logo: /images/sections/skills/strategy.png
-#   summary: "Accompagner les clients dans le défintion de leur la stratégie de transformation numérique."
-# #  url: "https://www.docker.com/"
+- name: Terraform
+  logo: /images/skills/terraform.png
 
-# - name: Management
-#   logo: /images/sections/skills/management.png
-#   summary: "Management de crise, management d'équipe"
+- name: Kubernetes
+  logo: /images/skills/kubernetes.png
+
+- name: ArgoCD
+  logo: /images/skills/argocd.png
+
+- name: Helm
+  logo: /images/skills/helm.png
+
+- name: Traefik
+  logo: /images/skills/traefik.png
+
+- name: Nginx
+  logo: /images/skills/nginx.png
+
+- name: Grafana
+  logo: /images/skills/grafana.png
+
+- name: Prometheus
+  logo: /images/skills/prometheus.png
+
+- name: Ansible
+  logo: /images/skills/ansible.png
+
+- name: Vault
+  logo: /images/skills/vault.png
+
+- name: Gitlab
+  logo: /images/skills/gitlab.png
+
+- name: Github
+  logo: /images/skills/github.png
+
+- name: Python
+  logo: /images/skills/python.png
+
+- name: Go
+  logo: /images/skills/golang.png
