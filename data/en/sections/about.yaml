@@ -111,6 +111,12 @@ badges:
   url: "https://www.credly.com/earner/earned/badge/b1ffdec0-afcf-4be3-a601-42558d9055d2"
   badge: https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png
 
+
+- type: certification
+  name: Prometheus Certified Associate
+  url: "https://www.credly.com/earner/earned/badge/3e8bafca-ca5d-4669-9d49-e62e1bd2f17c"
+  badge: https://images.credly.com/size/680x680/images/c34436dc-1cfd-4125-a862-35f9c86ca17f/image.png
+
 # - type: soft-skill-indicator
 #   name: Leadership
 #   percentage: 85
