@@ -50,7 +50,7 @@ projects:
   timeline: "Septembre 2020 - Septembre 2021"
   url: https://github.com/ovh/debian-cis
   summary: Debian CIS Hardening
-  tags: ["Personnel", "Sécurité"]
+  tags: ["Professionel", "Sécurité"]
 
 - name: Keylogger malware pour Windows
   logo: /images/projects/windows.png

@@ -49,7 +49,7 @@ projects:
   timeline: "September 2020 - September 2021"
   url: https://github.com/ovh/debian-cis
   summary: Kubernetes image admission controler based on image size
-  tags: ["Personnal", "Security"]
+  tags: ["Professional", "Security"]
 
 - name: Keylogger malware for Windows
   logo: /images/projects/windows.png
