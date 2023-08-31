@@ -20,12 +20,12 @@ buttons:
 # your projects
 projects:
 
-- name: Admission controller de Kubernetes basé sur la tailles des images
+- name: Admission controller pour Kubernetes
   logo: /images/skills/kubernetes.png
   role: Creator
   timeline: "Avril 2023"
   url: https://github.com/thibaultserti/k8s-image-admission-controller
-  summary: Admission controller de Kubernetes basé sur la tailles des images
+  summary: Admission controller pour Kubernetes basé sur la tailles des images
   tags: ["Personnel", "Kubernetes", "Golang"]
 
 - name: Curriculum Vitae
@@ -36,7 +36,7 @@ projects:
   summary: Mon CV exporté par Github Action et hébergé sur Github
   tags: ["Personnel"]
 
-- name: Github workflows pour mes projets de développement
+- name: Github workflows
   logo: /images/skills/github.png
   role: Creator
   timeline: "Janvier 2023 - Present"
@@ -52,7 +52,7 @@ projects:
   summary: Debian CIS Hardening
   tags: ["Professionel", "Sécurité"]
 
-- name: Keylogger malware pour Windows
+- name: Keylogger malware
   logo: /images/projects/windows.png
   role: Creator
   timeline: "Août 2020"
