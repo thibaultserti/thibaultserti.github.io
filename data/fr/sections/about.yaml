@@ -17,8 +17,9 @@ company:
 resume: ""
 
 # a summary about you
-summary: "En tant qu'architecte Cloud, je suis en charge de la conception, de la construction et du déploiement de différents types d'infrastructures chez nos clients. Bien que je sois spécialisé sur le cloud public Google Cloud Platform, je maîtrise également d'autres providers ainsi que les infrastructure on-premise."
-
+summary: -|
+  "En tant qu'architecte Cloud, je suis en charge de la conception, de la construction et du déploiement de différents types d'infrastructures chez nos clients.
+  Bien que je sois spécialisé sur le cloud public Google Cloud Platform, je maîtrise également d'autres providers ainsi que les infrastructure on-premise.""
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"

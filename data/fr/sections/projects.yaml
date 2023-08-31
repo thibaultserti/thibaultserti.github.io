@@ -20,19 +20,42 @@ buttons:
 # your projects
 projects:
 
-# - name: Ransomware.live
-#   logo: /images/sections/projects/ransomwatch.png
-#   role: Contributeur
-#   timeline: "Janvier 2022 - aujourd'hui"
-#   url: https://ransomware.live
-#   summary: Indexation des attaques par ransomware
-#   tags: ["Professionel", "Cybersécurité"]
-
+- name: Admission controller de Kubernetes basé sur la tailles des images
+  logo: /images/skills/kubernetes.png
+  role: Creator
+  timeline: "Avril 2023"
+  url: https://github.com/thibaultserti/k8s-image-admission-controller
+  summary: Admission controller de Kubernetes basé sur la tailles des images
+  tags: ["Personnel", "Kubernetes", "Golang"]
 
 - name: Curriculum Vitae
   logo: /images/author/thibault.jpg
-  role: Créateur
-  timeline: "April 2023 - aujourd'hui"
+  role: Creator
+  timeline: "Avril 2023 - Present"
   repo: https://github.com/thibaultserti/thibaultserti
-  summary: Mon Curriculum Vitae en ligne généré par Github Action et hébergé par Github
+  summary: Mon CV exporté par Github Action et hébergé sur Github
   tags: ["Personnel"]
+
+- name: Github workflows pour mes projets de développement
+  logo: /images/skills/github.png
+  role: Creator
+  timeline: "Janvier 2023 - Present"
+  url: https://github.com/thibaultserti/gh-actions-reusable-workflows
+  summary: Github workflows pour mes projets de développement
+  tags: ["Personnel", "CI/CD"]
+
+- name: Debian CIS Hardening
+  logo: /images/skills/security.png
+  role: Creator
+  timeline: "Septembre 2020 - Septembre 2021"
+  url: https://github.com/ovh/debian-cis
+  summary: Debian CIS Hardening
+  tags: ["Personnel", "Sécurité"]
+
+- name: Keylogger malware pour Windows
+  logo: /images/projects/windows.png
+  role: Creator
+  timeline: "Août 2020"
+  url: https://github.com/thibaultserti/keylogger
+  summary: Keylogger malware pour Windows
+  tags: ["Personnel", "Sécurité", "Python"]

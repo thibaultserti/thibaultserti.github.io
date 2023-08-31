@@ -25,7 +25,8 @@ experiences:
       - Maintien et évolution du code Terraform des Landing Zone proposées aux utilisateurs
       - Gestion des identités Google Workspace
       - Amélioration de la gouvernance et de la conformité sur le Cloud (remédiation, IAM, custom roles, organisation policy, ...)
-      - Support utilisateur pour des questions relatives à GCP
+      - Support utilisateur pour des questions relatives à GCP et Azure
+      - Design d'une pipeline d'ingestion d'assets cloud GCP vers PostgreSQL
 
 - company:
     name: Auchan
