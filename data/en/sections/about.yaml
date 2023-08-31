@@ -18,8 +18,7 @@ company:
 resume: ""
 
 # a summary about you
-summary: -|
-  "As a Cloud Architect, I am in charge of designing, building and deploying different kind of infrastructure at our customers.
+summary: "As a Cloud Architect, I am in charge of designing, building and deploying different kind of infrastructure at our customers.
   Although I am specialized on Public Cloud Google Cloud Platform,
   I am also proficient with other public cloud providers and with on-premise infrastructure."
 
