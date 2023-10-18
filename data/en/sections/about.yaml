@@ -18,9 +18,7 @@ company:
 resume: ""
 
 # a summary about you
-summary: "As a Cloud Architect, I am in charge of designing, building and deploying different kind of infrastructure at our customers.
-  Although I am specialized on Public Cloud Google Cloud Platform,
-  I am also proficient with other public cloud providers and with on-premise infrastructure."
+summary: "As a Cloud Architect, I am in charge of designing, building and deploying different kind of infrastructure at our customers. Although I am specialized on Public Cloud Google Cloud Platform, I am also proficient with other public cloud providers and with on-premise infrastructure."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -113,11 +111,15 @@ badges:
   url: "https://www.credly.com/earner/earned/badge/b1ffdec0-afcf-4be3-a601-42558d9055d2"
   badge: https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png
 
-
 - type: certification
   name: Prometheus Certified Associate
   url: "https://www.credly.com/earner/earned/badge/3e8bafca-ca5d-4669-9d49-e62e1bd2f17c"
   badge: https://images.credly.com/size/680x680/images/c34436dc-1cfd-4125-a862-35f9c86ca17f/image.png
+
+- type: certification
+  name: Associate Cloud Engineer
+  url: "https://www.credential.net/b428d6fe-fbfb-47d8-bade-d71140e4c977"
+  badge: "https://templates.images.credential.net/16590187933301617801540872729153.png"
 
 # - type: soft-skill-indicator
 #   name: Leadership

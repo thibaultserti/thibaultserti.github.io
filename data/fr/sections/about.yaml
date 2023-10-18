@@ -17,8 +17,8 @@ company:
 resume: ""
 
 # a summary about you
-summary: "En tant qu'architecte Cloud, je suis en charge de la conception, de la construction et du déploiement de différents types d'infrastructures chez nos clients.
-  Bien que je sois spécialisé sur le cloud public Google Cloud Platform, je maîtrise également d'autres providers ainsi que les infrastructure on-premise.""
+summary: "En tant qu'architecte Cloud, je suis en charge de la conception, de la construction et du déploiement de différents types d'infrastructures chez nos clients. Bien que je sois spécialisé sur le cloud public Google Cloud Platform, je maîtrise également d'autres providers ainsi que les infrastructure on-premise."
+
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
@@ -112,6 +112,11 @@ badges:
   name: Prometheus Certified Associate
   url: "https://www.credly.com/earner/earned/badge/3e8bafca-ca5d-4669-9d49-e62e1bd2f17c"
   badge: https://images.credly.com/size/680x680/images/c34436dc-1cfd-4125-a862-35f9c86ca17f/image.png
+
+- type: certification
+  name: Associate Cloud Engineer
+  url: "https://www.credential.net/b428d6fe-fbfb-47d8-bade-d71140e4c977"
+  badge: "https://templates.images.credential.net/16590187933301617801540872729153.png"
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator

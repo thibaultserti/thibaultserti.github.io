@@ -10,6 +10,22 @@ section:
 
 # Your experiences
 experiences:
+- company:
+    name: Efficom Lille
+    url: "https://www.efficom.fr/"
+    location: Lille, France
+    overview: Freelancing
+  positions:
+  - designation: Teacher
+    start: 2023
+    #end: 2023
+    responsibilities:
+      - Development
+      - System
+      - Cloud
+      - Monitoring
+      - IaC
+      - Kubernetes
 
 - company:
     name: Adeo
@@ -19,7 +35,7 @@ experiences:
   positions:
   - designation: Cloud Architect
     start: 2022
-    # end: 2023
+    end: 2023
     responsibilities:
       - Maintenance and evolution of internal APIs (FastAPI) for infrastructure automation on GCP, Azure and Yandex
       - SDK development in Python to consume internal APIs
@@ -28,6 +44,14 @@ experiences:
       - Improvement of cloud governance and compliance (remediation, IAM, custom roles, organization policy, ...)
       - User support for questions related to GCP and Azure
       - Design of data ingestion pipeline related to Cloud Assets to PostgreSQL
+  - designation: Platform Engineer
+    start: 2023
+    #end: 2023
+    responsibilities:
+      - Administration of the CaaS platform
+      - MCO and run for more than 70 clusters (HPA, Gatekeeper OPA, traefikee, trivy, sealedsecret, velero, traefikee, datadog, vault, cert-manager, datadog, argoCD, argoWorkflow, argoEvents, custom kopf operators)
+      - build & run on a multi cloud environment (GCP, Azure)
+      - multiple development with python
 
 - company:
     name: Auchan
@@ -91,12 +115,19 @@ experiences:
   positions:
   - designation: Cloud Architect
     start: 2021
-    #end: 2024
+    end: 2023
     responsibilities:
     - Technical recruitment
     - Ensuring the security Best Practices
     - Managing interns and apprentices
     - Industrialization of cloud patterns to ease the onboardings of new clients
+  - designation: Practice Leader GCP
+    start: 2023
+    responsibilities:
+    - Industrialisation on GCP and Kubernetes
+    - Technical recruitement and onboarding
+    - Certification training on GCP and Kubernetes
+    - Buisness management with Google
 
 - company:
     name: OVHcloud

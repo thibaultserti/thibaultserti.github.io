@@ -11,6 +11,23 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Efficom Lille
+    url: "https://www.efficom.fr/"
+    location: Lille, France
+    overview: Freelancing
+  positions:
+  - designation: Enseignant
+    start: 2023
+    #end: 2023
+    responsibilities:
+      - Développement
+      - Système
+      - Cloud
+      - Monitoring
+      - IaC
+      - Kubernetes
+
+- company:
     name: Adeo
     url: "https://adeo.com"
     location: Ronchin, France
@@ -18,7 +35,7 @@ experiences:
   positions:
   - designation: Cloud Architect
     start: 2022
-    # end: 2023
+    end: 2023
     responsibilities:
       - Maintien et évolution des API (FastAPI) internes de l'automatisation de l'infrastructure sur GCP, Azure et Yandex
       - Développement de SDK en Python pour consommer les APIs internes
@@ -27,6 +44,14 @@ experiences:
       - Amélioration de la gouvernance et de la conformité sur le Cloud (remédiation, IAM, custom roles, organisation policy, ...)
       - Support utilisateur pour des questions relatives à GCP et Azure
       - Design d'une pipeline d'ingestion d'assets cloud GCP vers PostgreSQL
+  - designation: Platform Engineer
+    start: 2023
+    #end: 2023
+    responsibilities:
+      - administration de l'offre CaaS
+      - MCO et run de plus de 70 clusters (HPA, Gatekeeper OPA, traefikee, trivy, sealedsecret, velero, traefikee, datadog, vault, cert-manager, datadog, argoCD, argoWorkflow, argoEvents, custom kopf operators)
+      - build & run de l'offre multi cloud (GCP, Azure)
+      - développement divers en python
 
 - company:
     name: Auchan
@@ -90,12 +115,19 @@ experiences:
   positions:
   - designation: Cloud Architect
     start: 2021
-    #end: 2024
+    end: 2023
     responsibilities:
     - Recruitement technique
     - Application des bonnes pratiques de sécurité
     - Accompagnement des stagiaires et des alternants
     - Industrailisation des patterns cloud pour améliorer la qualité chez nos clients
+  - designation: Practice Leader GCP
+    start: 2023
+    responsibilities:
+    - Industrialisation GCP et Kubernetes
+    - Recrutement technique
+    - Animation des certifications GCP
+    - Suivi buisness avec Google
 
 - company:
     name: OVHcloud
