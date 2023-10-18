@@ -33,6 +33,14 @@ experiences:
     location: Ronchin, France
     overview: Mission client
   positions:
+  - designation: Platform Engineer
+    start: 2023
+    #end: 2023
+    responsibilities:
+      - administration de l'offre CaaS
+      - MCO et run de plus de 70 clusters (HPA, Gatekeeper OPA, traefikee, trivy, sealedsecret, velero, traefikee, datadog, vault, cert-manager, datadog, argoCD, argoWorkflow, argoEvents, custom kopf operators)
+      - build & run de l'offre multi cloud (GCP, Azure)
+      - développement divers en python
   - designation: Cloud Architect
     start: 2022
     end: 2023
@@ -44,14 +52,7 @@ experiences:
       - Amélioration de la gouvernance et de la conformité sur le Cloud (remédiation, IAM, custom roles, organisation policy, ...)
       - Support utilisateur pour des questions relatives à GCP et Azure
       - Design d'une pipeline d'ingestion d'assets cloud GCP vers PostgreSQL
-  - designation: Platform Engineer
-    start: 2023
-    #end: 2023
-    responsibilities:
-      - administration de l'offre CaaS
-      - MCO et run de plus de 70 clusters (HPA, Gatekeeper OPA, traefikee, trivy, sealedsecret, velero, traefikee, datadog, vault, cert-manager, datadog, argoCD, argoWorkflow, argoEvents, custom kopf operators)
-      - build & run de l'offre multi cloud (GCP, Azure)
-      - développement divers en python
+
 
 - company:
     name: Auchan
