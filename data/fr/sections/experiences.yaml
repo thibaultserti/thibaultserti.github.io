@@ -38,7 +38,7 @@ experiences:
     #end: 2023
     responsibilities:
       - administration de l'offre CaaS
-      - MCO et run de plus de 70 clusters (HPA, Gatekeeper OPA, traefikee, trivy, sealedsecret, velero, traefikee, datadog, vault, cert-manager, datadog, argoCD, argoWorkflow, argoEvents, custom kopf operators)
+      - MCO et run de plus de 70 clusters (HPA, Gatekeeper OPA, traefikee, trivy, sealedsecret, velero, datadog, vault, knative, cert-manager, argoCD, argoWorkflow, argoEvents, custom kopf operators)
       - build & run de l'offre multi cloud (GCP, Azure)
       - développement divers en python
   - designation: Cloud Architect
