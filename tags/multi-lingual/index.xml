@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Multi-Lingual on Thibault Ayanides</title><link>https://thibaultserti.github.io/tags/multi-lingual/</link><description>Recent content in Multi-Lingual on Thibault Ayanides</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 05 Feb 2025 08:06:25 +0600</lastBuildDate><atom:link href="https://thibaultserti.github.io/tags/multi-lingual/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://thibaultserti.github.io/posts/introduction/</link><pubDate>Wed, 05 Feb 2025 08:06:25 +0600</pubDate><guid>https://thibaultserti.github.io/posts/introduction/</guid><description>&lt;p>Greeting! This is an introduction post. This post tests the followings:&lt;/p>
+&lt;ul>
+&lt;li>Hero image is in the same directory as the post.&lt;/li>
+&lt;li>This post should be at top of the sidebar.&lt;/li>
+&lt;li>Post author should be the same as specified in &lt;code>author.yaml&lt;/code> file.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo new posts/introduction/index.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
