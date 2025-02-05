@@ -1,10 +1,8 @@
 # Copyright Notice
-copyright: © 2023 Copyright.
+copyright: © 2025 Copyright.
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
-disclaimer: "This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses.
-You can modify or distribute the theme without requiring any permission from the theme author.
-However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
+disclaimer: "This theme is under MIT license."
 
 # Meta description for your site.  This will help the search engines to find your site.
 description: Curriculum Vitae de Thibault Ayanides, Cloud Architect chez Skale 5, en mission à Adeo.
@@ -12,8 +10,13 @@ description: Curriculum Vitae de Thibault Ayanides, Cloud Architect chez Skale 5
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
-#- name: Docs
-#  url: https://toha-guides.netlify.app/posts/
+  - name: Blog
+    url: https://thibaultserti.github.io/posts/
+    # specify whether to hide the menu item from top navbar or not.
+    hideFromNavbar: false
+    # specify whether to show the menu item in footer or not.
+    # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
+    showOnFooter: false
 
 # Specify OpenGraph Headers
 openGraph:

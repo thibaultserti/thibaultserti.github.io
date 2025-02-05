@@ -5,8 +5,27 @@ section:
   enable: true
   weight: 2
   showOnNavbar: true
+  filter: true
   # Can optionally hide the title in sections
   # hideTitle: true
+
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Basic
+  filter: "basic"
+- name: Cloud
+  filter: "cloud"
+- name: Language
+  filter: "language"
+- name: Container
+  filter: "container"
+- name: Observability
+  filter: "observability"
+- name: Others
+  filter: "others"
 
 # # Your Skills.
 # # Give a summary of you each skill in the summary section.
@@ -14,79 +33,99 @@ skills:
 - name: GCP
   logo: /images/skills/GCP.png
   summary: "Utilisation approfondie de Google Cloud Platform, incluant GKE, GCE, Cloud Run, Networking, BigQuery, ... et plus encore."
+  categories: ["cloud"]
 
 - name: Azure
   logo: /images/skills/azure.png
   summary: "Principalement AKS"
+  categories: ["cloud"]
 
 - name: Scaleway
   logo: /images/skills/scaleway.png
   summary: "Maîtrise de Kapsule, Network, Object Storage, IAM, Cockpit et plus encore."
+  categories: ["cloud"]
 
 - name: Architecture
   logo: /images/skills/architecture.png
   summary: "Architecture Cloud, Design Patterns et bonnes pratiques."
+  categories: ["basic"]
 
 - name: Sécurité
   logo: /images/skills/security.png
-  summary: "Hardening, IAM, Sécurité Réseau, DevSecOps."
+  summary: "Hardening, IAM, Sécurité réseau, Développement sécurisé, DevSecOps."
+  categories: ["basic"]
 
 - name: Terraform
   logo: /images/skills/terraform.png
   summary: "Utilisation de Terraform à l'échelle (5000 stacks) pour gérer les landing zones."
+  categories: ["cloud"]
 
 - name: Kubernetes
   logo: /images/skills/kubernetes.png
   summary: "Administration Kubernetes à l'échelle dans divers contextes (GKE, AKS, YKS, Kapsule, on-premise, ...) dans des environnements de pointe (PCIDSS, à l'échelle avec ~100 clusters et plus de 2000 nœuds)."
+  categories: ["container"]
 
 - name: ArgoCD
   logo: /images/skills/argocd.png
   summary: "Maîtrise d'ArgoCD à l'échelle (optimisations de performance, scalabilité, multi-tenant, GitOps, ...) et d'ArgoWorkflow."
+  categories: ["container"]
 
 - name: Helm
   logo: /images/skills/helm.png
   summary: "Construction de charts Helm selon les bonnes pratiques."
+  categories: ["container"]
 
 - name: Traefik
   logo: /images/skills/traefik.png
   summary: "Utilisation de Traefik open source et Traefikee (version commerciale de Traefik) à l'échelle (80 000 ingressroutes)."
+  categories: ["others"]
 
 - name: Nginx
   logo: /images/skills/nginx.png
   summary: "Administration de Nginx dans des environnements de petite taille."
+  categories: ["others"]
 
 - name: Grafana
   logo: /images/skills/grafana.png
   summary: "Configuration de Grafana pour exposer des sources de données Prometheus et construire des règles d'alerte."
+  categories: ["observability"]
 
 - name: Prometheus
   logo: /images/skills/prometheus.png
   summary: "Administration sur des environnements de petite à moyenne taille avec Prometheus + Thanos pour la rétention des métriques."
+  categories: ["observability"]
 
 - name: Datadog
   logo: /images/skills/datadog.png
   summary: "Configuration des moniteurs, APM, ingestion de métriques, agent datadog."
+  categories: ["observability"]
 
 - name: Ansible
   logo: /images/skills/ansible.png
   summary: "Développement de playbooks et rôles, tests avec Molecule."
+  categories: ["others"]
 
 - name: Vault
   logo: /images/skills/vault.png
   summary: "Utilisation de Vault comme stockage de clés-valeurs et avec l'intégration Kubernetes."
+  categories: ["others"]
 
 - name: Gitlab
   logo: /images/skills/gitlab.png
   summary: "Maîtrise de Gitlab CI/CD, Gitlab Runner, templates Gitlab CI/CD."
+  categories: ["others"]
 
 - name: Github
   logo: /images/skills/github.png
   summary: "Github Actions, Workflows Réutilisables Github Actions."
+  categories: ["others"]
 
 - name: Python
   logo: /images/skills/python.png
   summary: "FastAPI, Pydantic, typer, kopf (opérateurs Kubernetes), uv, ... et plus encore."
+  categories: ["language"]
 
 - name: Go
   logo: /images/skills/golang.png
   summary: "Développement de CLI et d'opérateurs en Go."
+  categories: ["language"]

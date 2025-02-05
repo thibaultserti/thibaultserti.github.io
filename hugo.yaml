@@ -76,6 +76,10 @@ params:
   # Default branch of your Git repo
   gitBranch: main
 
+  # Configure the number of section title visible in the top navbar
+  topNavbar:
+    maxVisibleSections: 8
+
   # Configure various features of this theme
   features:
     # Configure theme color settings
@@ -91,13 +95,13 @@ params:
       enable: false
     # Enable and configure blog posts
     blog:
-      enable: false
+      enable: true
       # Share post on different social media
       shareButtons:
         facebook: false
-        twitter: false
+        twitter: true
         linkedin: true
-        reddit: false
+        reddit: true
         whatsapp: false
         email: false
         # tumblr: true
@@ -269,7 +273,7 @@ params:
       enable: true
     # Show/hide credentials section in the footer. Default is "true".
     credentials:
-      enable: false
+      enable: true
 
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
