@@ -27,20 +27,31 @@ experiences:
       - IaC
       - Kubernetes
 
+  - company:
+      name: Ambient IT
+      url: "https://www.ambient-it.net/"
+      location: Pantin, France
+      overview: Freelancing
+    positions:
+    - designation: Formateur
+      start: 2024
+      responsibilities:
+        - Formation de professionnels de l'IT pour préparer les certifications Kubernetes (CKA, CKAD, CKS) ou pour apprendre de nouvelles technologies (Docker, Ansible, Devops, ...).
+
 - company:
     name: Adeo
     url: "https://adeo.com"
     location: Ronchin, France
-    overview: Mission client
+    overview: Mission client puis freelancing
   positions:
   - designation: Platform Engineer
     start: 2023
     #end: 2023
     responsibilities:
       - administration de l'offre CaaS
-      - MCO et run de plus de 70 clusters (HPA, Gatekeeper OPA, traefikee, trivy, sealedsecret, velero, datadog, vault, knative, cert-manager, argoCD, argoWorkflow, argoEvents, custom kopf operators)
+      - MCO et run de plus de 90 clusters Kubernetes (HPA, Gatekeeper OPA, traefikee, trivy, sealedsecret, velero, traefikee, datadog, vault, cert-manager, datadog, argoCD, argoWorkflow, argoEvents, custom kopf operators) sur GKE et AKS
       - build & run de l'offre multi cloud (GCP, Azure)
-      - développement divers en python
+      - développement divers en python (FastAPI, Pydantic, typer, ...)
   - designation: Cloud Architect
     start: 2022
     end: 2023

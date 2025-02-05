@@ -28,19 +28,32 @@ experiences:
       - Kubernetes
 
 - company:
+    name: Ambient IT
+    url: "https://www.ambient-it.net/"
+    location: Pantin, France
+    overview: Freelancing
+  positions:
+  - designation: Trainer
+    start: 2024
+    #end: 2023
+    responsibilities:
+      - Trainer for IT professionals to prepare for Kubernetes certification (CKA, CKAD, CKS) or to learn new technologies (Docker, Ansible, Devops, ...).
+
+- company:
     name: Adeo
     url: "https://adeo.com"
     location: Ronchin, France
-    overview: Mission as IT consultant
+    overview: Mission as IT consultant then freelancing
   positions:
   - designation: Platform Engineer
     start: 2023
     #end: 2023
     responsibilities:
-      - Administration of the CaaS platform
-      - MCO and run for more than 70 clusters (HPA, Gatekeeper OPA, traefikee, trivy, sealedsecret, velero, datadog, vault, kantive, cert-manager, argoCD, argoWorkflow, argoEvents, custom kopf operators)
-      - build & run on a multi cloud environment (GCP, Azure)
-      - multiple development with python
+      - Administration of the Adeo CaaS offer
+      - MCO and run for more than 90 Kubernetes clusters (HPA, Gatekeeper OPA, traefikee, trivy, sealedsecret, velero, datadog, vault, cert-manager, knative, argoCD, argoWorkflow, custom kopf operators) on GKE and AKS
+      - Build & run on a multi cloud environment (GCP & Azure) on various subjects (CI/CD, monitoring, network, security, ...)
+      - Multiple python developments (FastAPI, Pydantic, typer, ...)
+
   - designation: Cloud Architect
     start: 2022
     end: 2023

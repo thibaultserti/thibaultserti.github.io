@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Cloud Architect and SRE
+designation: Platform Engineer
 # your company information
 company:
-  name: Skale 5
-  url: "https://www.skale-5.com"
+  name: Adeo
+  url: "https://www.adeo.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: ""
 
 # a summary about you
-summary: "As a Cloud Architect, I am in charge of designing, building and deploying different kind of infrastructure at our customers. Although I am specialized on Public Cloud Google Cloud Platform, I am also proficient with other public cloud providers and with on-premise infrastructure."
+summary: "As a Platform Engineer, I am in charge of maintaining, building and evolving the CaaS offer in Adeo."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

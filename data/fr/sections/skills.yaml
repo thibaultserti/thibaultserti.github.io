@@ -13,7 +13,12 @@ section:
 skills:
 - name: GCP
   logo: /images/skills/GCP.png
-  #summary:
+
+- name: Azure
+  logo: /images/skills/azure.png
+
+- name: Scaleway
+  logo: /images/skills/scaleway.png
 
 - name: Architecture
   logo: /images/skills/architecture.png
@@ -44,6 +49,9 @@ skills:
 
 - name: Prometheus
   logo: /images/skills/prometheus.png
+
+- name: Datadog
+  logo: /images/skills/datadog.png
 
 - name: Ansible
   logo: /images/skills/ansible.png

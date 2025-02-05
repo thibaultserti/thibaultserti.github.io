@@ -59,3 +59,11 @@ projects:
   url: https://github.com/thibaultserti/keylogger
   summary: Keylogger malware pour Windows
   tags: ["Personnel", "Sécurité", "Python"]
+
+- name: Homelab
+  logo: /images/skills/kubernetes.png
+  role: Creator
+  timeline: "Juin 2023 - Present"
+  url: https://github.com/thibaultserti/kubernetes
+  summary: Mon homelab personnel
+  tags: ["Personnel", "Kubernetes", "ArgoCD"]
