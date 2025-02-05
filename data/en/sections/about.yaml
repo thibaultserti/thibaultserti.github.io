@@ -39,13 +39,13 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "https://linkedin.com/in/thibault-ayanides"
 
-# - name: Twitter
-#   icon: "fab fa-twitter"
-#   url: "https://twitter.com/"
-
 - name: Blog
   icon: "fab fa-blogger-b"
   url: "https://thibaultserti.github.io"
+
+resourceLinks:
+- title: "CV"
+  url: "https://storage.googleapis.com/resume-thibault-ayanides/resume.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
@@ -69,12 +69,12 @@ badges:
 - type: certification
   name: "CKAD: Certified Kubernetes Application Developer"
   url: "https://www.credly.com/earner/earned/badge/de1f6a65-b473-4aa5-a579-322fedf20e69"
-  badge: "https://images.credly.com/size/340x340/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad_from_cncfsite.png"
+  badge: "https://images.credly.com/size/680x680/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob"
 
 - type: certification
   name: "CKS: Certified Kubernetes Security Specialist"
   url: "https://www.credly.com/earner/earned/badge/726f2ad9-1c6c-4ca4-af3b-ae4c742d2da9"
-  badge: "https://images.credly.com/size/340x340/images/9945dfcb-1cca-4529-85e6-db1be3782210/kubernetes-security-specialist-logo2.png"
+  badge: "https://images.credly.com/size/680x680/images/9945dfcb-1cca-4529-85e6-db1be3782210/kubernetes-security-specialist-logo2.png"
 
 - type: certification
   name: Professional Cloud Security Engineer

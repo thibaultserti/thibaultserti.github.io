@@ -10,62 +10,82 @@ section:
 # # Your Skills.
 # # Give a summary of you each skill in the summary section.
 skills:
-  - name: GCP
-    logo: /images/skills/GCP.png
+- name: GCP
+  logo: /images/skills/GCP.png
+  summary: "Proficient in Google Cloud Platform, including GKE, GCE, Cloud Run, Networking, BigQuery, ... and more."
 
-  - name: Azure
-    logo: /images/skills/azure.png
+- name: Azure
+  logo: /images/skills/azure.png
+  summary: "Specialized in AKS"
 
-  - name: Scaleway
-    logo: /images/skills/scaleway.png
+- name: Scaleway
+  logo: /images/skills/scaleway.png
+  summary: "Skilled in Kapsule, Network, Object Storage, IAM, Cockpit and more."
 
-  - name: Architecture
-    logo: /images/skills/architecture.png
+- name: Architecture
+  logo: /images/skills/architecture.png
+  summary: "Proficient in Cloud Architecture, Design Patterns, and best practices."
 
-  - name: Sécurité
-    logo: /images/skills/security.png
+- name: Sécurité
+  logo: /images/skills/security.png
+  summary: "Specialized in Hardening, IAM, Security Network, DevSecOps."
 
-  - name: Terraform
-    logo: /images/skills/terraform.png
+- name: Terraform
+  logo: /images/skills/terraform.png
+  summary: "Proficient with Terraform at scale (5000 stacks) to manage landing zones."
 
-  - name: Kubernetes
-    logo: /images/skills/kubernetes.png
+- name: Kubernetes
+  logo: /images/skills/kubernetes.png
+  summary: "Expert in Kubernetes at scale in various contexts (GKE, AKS, YKS, Kapsule, on-premise, ...) in cutting edge environments (PCIDSS, at scale with ~100 clusters and more than 2000 nodes)."
 
-  - name: ArgoCD
-    logo: /images/skills/argocd.png
+- name: ArgoCD
+  logo: /images/skills/argocd.png
+  summary: "Proficient in ArgoCD at scale (performance optimizations, scalability, multi-tenancy, Gitops, ...) and in ArgoWorkflow."
 
-  - name: Helm
-    logo: /images/skills/helm.png
+- name: Helm
+  logo: /images/skills/helm.png
+  summary: "Skilled in building Helm charts following best practices."
 
-  - name: Traefik
-    logo: /images/skills/traefik.png
+- name: Traefik
+  logo: /images/skills/traefik.png
+  summary: "Advanced knowledge of Traefik open source and Traefikee (commercial version of Traefik) at scale (80 000 ingressroutes)."
 
-  - name: Nginx
-    logo: /images/skills/nginx.png
+- name: Nginx
+  logo: /images/skills/nginx.png
+  summary: "Proficient in Nginx administration in small environments."
 
-  - name: Grafana
-    logo: /images/skills/grafana.png
+- name: Grafana
+  logo: /images/skills/grafana.png
+  summary: "Skilled in configuring Grafana to expose Prometheus datasources and build alerting rules."
 
-  - name: Prometheus
-    logo: /images/skills/prometheus.png
+- name: Prometheus
+  logo: /images/skills/prometheus.png
+  summary: "Proficient in small to medium size environments with Prometheus + Thanos for metrics retention."
 
-  - name: Datadog
-    logo: /images/skills/datadog.png
+- name: Datadog
+  logo: /images/skills/datadog.png
+  summary: "Skilled in monitors, APM, metrics ingestion, datadog agent."
 
-  - name: Ansible
-    logo: /images/skills/ansible.png
+- name: Ansible
+  logo: /images/skills/ansible.png
+  summary: "Proficient in Ansible (mostly playbook and roles conception, test with Molecule)."
 
-  - name: Vault
-    logo: /images/skills/vault.png
+- name: Vault
+  logo: /images/skills/vault.png
+  summary: "Skilled in Vault as key value store, and with Kubernetes integration."
 
-  - name: Gitlab
-    logo: /images/skills/gitlab.png
+- name: Gitlab
+  logo: /images/skills/gitlab.png
+  summary: "Advanced knowledge of Gitlab CI/CD, Gitlab Runner, Gitlab CI/CD templates."
 
-  - name: Github
-    logo: /images/skills/github.png
+- name: Github
+  logo: /images/skills/github.png
+  summary: "Proficient in Github Actions, Github Actions Reusable Workflows."
 
-  - name: Python
-    logo: /images/skills/python.png
+- name: Python
+  logo: /images/skills/python.png
+  summary: "Skilled in FastAPI, Pydantic, typer, kopf (Kubernetes operators), uv, ... and more."
 
-  - name: Go
-    logo: /images/skills/golang.png
+- name: Go
+  logo: /images/skills/golang.png
+  summary: "Proficient in Go for building CLI and operators."
