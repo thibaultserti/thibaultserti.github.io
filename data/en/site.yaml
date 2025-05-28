@@ -7,7 +7,7 @@ You can modify or distribute the theme without requiring any permission from the
 However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Curriculum Vitae of Thibault Ayanides, Cloud Architect in Skale 5, on a mission in Adeo.
+description: Curriculum Vitae of Thibault Ayanides, freelance Cloud Architect, on a mission in Adeo.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -19,6 +19,6 @@ customMenus:
 openGraph:
   title: Thibault Ayanides Cloud Architect
   type: website
-  description: Curriculum Vitae of Thibault Ayanides, Cloud Architect in freelance, on a mission in Adeo.
+  description: Curriculum Vitae of Thibault Ayanides, freelance Cloud Architect, on a mission in Adeo.
   image: images/author/thibault.jpg
   url: http://thibaultserti.github.io
