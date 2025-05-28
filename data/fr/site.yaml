@@ -5,7 +5,7 @@ copyright: © 2025 Copyright.
 disclaimer: "This theme is under MIT license."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Curriculum Vitae de Thibault Ayanides, Cloud Architect chez Skale 5, en mission à Adeo.
+description: Curriculum Vitae de Thibault Ayanides, Cloud Architect freelance, en mission à Adeo.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -22,6 +22,6 @@ customMenus:
 openGraph:
   title: Thibault Ayanides Cloud Architect
   type: website
-  description: Curriculum Vitae de Thibault Ayanides, Cloud Architect chez Skale 5, en mission à Adeo.
+  description: Curriculum Vitae de Thibault Ayanides, Cloud Architect freelance, en mission à Adeo.
   image: images/author/thibault.jpg
   url: http://thibaultserti.github.io
